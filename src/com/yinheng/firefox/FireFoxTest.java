@@ -35,9 +35,9 @@ public class FireFoxTest {
         //新建仓库
         driver.findElement(By.className("boxed-group-action")).click();
         //输入仓库名称
-        driver.findElement(By.id("repository_name")).sendKeys("FireboxTest");
+        driver.findElement(By.id("repository_name")).sendKeys("FireboxTest1");
         //输入仓库描述
-        driver.findElement(By.id("repository_description")).sendKeys("Firebox test by Selenium");
+        driver.findElement(By.id("repository_description")).sendKeys("Firebox test by Selenium3");
         //选择public
         driver.findElement(By.id("repository_public_true")).click();
         //选择private
